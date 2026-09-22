@@ -588,6 +588,7 @@ def create_spas_messages(packer, CAN, frame, left_blink, right_blink):
 
 def create_fca_warning_light(CP, packer, CAN, frame):
   ret = []
+  return ret
   if CP.flags & HyundaiFlags.CAMERA_SCC.value:
     return ret
 
